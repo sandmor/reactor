@@ -1,0 +1,33 @@
+Theme (
+    styles: {
+        "items_view": (
+            base: "base",
+            properties: {
+                "foreground": "$LINK_WATER",
+                "background": "transparent",
+                "border_brush": "$SILVER_CHALICE",
+                "border_width": 1,
+                "border_radius": 3,
+            },
+        ),
+        "items_view_item": (
+            properties: {
+                "font_size": "$FONT_SIZE_12",
+                "foreground": "$BRIGHT_GRAY",
+                "background": "transparent",
+                "padding_left": 8,
+                "padding_right": 8,
+            },
+            states: {
+                "selected": {
+                    "foreground": "$BRIGHT_GRAY",
+                    "background": "$SUNFLOWER",
+                },
+                "pressed": {
+                    "foreground": "$BRIGHT_GRAY",
+                    "background": "$SUNFLOWER",
+                },
+            },
+        )
+    },
+)
